@@ -9,4 +9,4 @@ Utilizando el elemento canvas, crea un <i>Paint</i> sencillo que pueda pintar en
 
 Este ejercicio no hace falta entregarlo.
 
-[Trye me!](https://merinhunter.github.io/X-Nav-5.7.3-PaintSencillo/.)
+[Try me!](https://merinhunter.github.io/X-Nav-5.7.3-PaintSencillo/paint.html)

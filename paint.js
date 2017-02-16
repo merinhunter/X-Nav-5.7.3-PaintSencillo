@@ -1,7 +1,7 @@
 /* Asociamos función canvasApp a carga de página */
-window.addEventListener('load', canvasApp, false);	
+window.addEventListener('load', canvasApp, false);
 
-function canvasApp(){  
+function canvasApp(){
     /* Inicializamos el canvas */
 	var theCanvas = document.getElementById('canvas');
 	var context = theCanvas.getContext('2d');
@@ -59,10 +59,10 @@ function canvasApp(){
     }
 
     function mouse_moved(ev) {
-	  var x, y;	
+	  var x, y;
 	  // Get the mouse position in the canvas
-	  x = ev.pageX;
-	  y = ev.pageY;
+	  x = ev.offsetX;
+	  y = ev.offsetY;
 
 	  if (begin_drawing) {
 	    context.beginPath();
